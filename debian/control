@@ -1,0 +1,12 @@
+Source: ros-indigo-ar-track-alvar-msgs
+Section: misc
+Priority: extra
+Maintainer: Scott Niekum <sniekum@cs.umass.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/ar_track_alvar
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ar-track-alvar-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-std-msgs
+Description: This package is a ROS wrapper for Alvar, an open source AR tag tracking library.
